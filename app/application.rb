@@ -7,6 +7,10 @@ class Application
     time = Time.now
     
     if time < 12
+      
+    else
+    
+    end
     resp.finish
   end
 end
