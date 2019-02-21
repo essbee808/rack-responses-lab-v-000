@@ -3,9 +3,9 @@ require 'pry'
 class Application
   
   def call(env)
+    binding.pry
     resp = Rack::Response.new
     
-    binding.pry
     time = Time.new
     resp.finish
   end
