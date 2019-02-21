@@ -6,7 +6,7 @@ class Application
     resp = Rack::Response.new
     time = Time.now
     
-    if time 
+    if time < 12
     resp.finish
   end
 end
