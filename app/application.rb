@@ -4,7 +4,7 @@ class Application
     resp = Rack::Response.new
     
     time = Time.new
-    if time 
+    if time < 
     resp.finish
   end
   
