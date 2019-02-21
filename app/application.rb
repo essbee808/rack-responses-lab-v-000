@@ -1,3 +1,3 @@
 class Application
-  resp = Rack
+  resp = Rack::
 end
